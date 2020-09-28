@@ -36,7 +36,7 @@ class Test extends TestCase
             else $this->assertEquals(greetins($hora),'Bona nit');
         }
         $this->assertEquals(greetins("06:00"),'Bona nit');
-        $this->assertEquals(greetins("07:00"),'Bona dia');
+        $this->assertEquals(greetins("07:00"),'Bon dia');
         $this->assertEquals(greetins("12:00"),'Bon dia');
     }
     public function testValDate(){
